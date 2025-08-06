@@ -1,0 +1,32 @@
+#ccStyle {
+	background: #ffecec url(images/pinkBG.jpg) repeat;
+	color: #5d3737;
+	border: 5px black double;
+	border-color: black black gray gray;
+	margin: 25px 50px;
+	padding: 10px;
+}
+
+#ccStyle a:link {
+	color: black;
+}
+
+#ccStyle a:visited {
+	color: gray;
+}
+
+#ccStyle a:hover {
+	text-decoration: none;
+	color: #ffbcd9;
+	background-color: #5d3737;
+}
+
+.loud {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.quiet {
+	font-size: 0.75em;
+	text-transform: lowercase;
+}

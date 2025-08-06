@@ -1,0 +1,36 @@
+h1 {
+	color: blue;
+	font-family: arial, helvetica, serif;
+	text-align: center;
+	word-spacing: 2em;
+}
+
+h2 {
+	color: yellow;
+	background-color: blue;
+	text-transform: capitalize;
+}
+
+h3 {
+	text-transform: uppercase;
+	margin: 20px;
+	padding: 40px;
+}
+
+p {
+	color: red;
+}
+
+a {
+	color: #f8b2f5;
+}
+
+body {
+	border-style: double;
+	border-width: 10px;
+	border-color: purple;
+	font-size: 12pt;
+	color: green;
+	background-color: #f5f2f0;
+	padding: 10px;
+}
