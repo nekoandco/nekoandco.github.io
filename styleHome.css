@@ -1,0 +1,56 @@
+body {
+	font-size: 100%;
+}
+
+footer {
+	font-size: 75%;
+	color: gray;
+	text-align: center;
+	margin: 25px;
+}
+
+#cosmos {
+	background: black url(images/starsBG.jpg) repeat; /* bg from pixelmoondust's collection https://pixelmoondust.neocities.org/archives/archivedtiles/colours/black */
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#screenplay {
+	text-align: justify;
+	font-size: 1.5em;
+	line-height: 2.0;
+	margin: 250px;
+}
+
+.traveler {
+	color: #fcf8a4;
+	font-family: "Schoolbell", "Comic Sans MS", sans-serif;
+	text-transform: lowercase;
+}
+
+.conciousness {
+	color: #a4edfc;
+	font-family: "Playfair Display SC", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 75%;
+}
+
+.rainbowTextLoop {
+	/* code from UnusedCSS https://unused-css.com/blog/css-rainbow-text/ */
+  display: inline-block;
+  -webkit-animation: rainbow 2.5s infinite;
+}
+
+@-webkit-keyframes rainbow{
+  0%{color: orange;}  
+  10%{color: purple;} 
+  20%{color: red;}
+  30%{color: CadetBlue;}
+  40%{color: yellow;}
+  50%{color: coral;}
+  60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+  100%{color: orange;}
+}
