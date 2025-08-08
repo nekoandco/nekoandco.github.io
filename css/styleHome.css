@@ -6,7 +6,39 @@ footer {
 	font-size: 75%;
 	color: gray;
 	text-align: center;
-	margin: 2%;
+	margin-bottom: 10px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	display: inline;
+}
+
+table {
+	width: 70%;
+	margin-top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:nth-child(odd) {
+	color: #fcf8a4;
+	font-family: "Schoolbell", "Comic Sans MS", sans-serif;
+	text-transform: lowercase;
+	vertical-align: top;
+}
+
+tr:nth-child(even) {
+	color: #a4edfc;
+	font-family: "Markazi Text", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 90%;
+	vertical-align: top;
+}
+
+th, td {
+  padding-top: 10px;
 }
 
 #cosmos {
@@ -19,7 +51,7 @@ footer {
 	text-align: justify;
 	font-size: 1.5em;
 	line-height: 2.0;
-	margin: 20%;
+	/* margin: 20%; */
 }
 
 .traveler {
