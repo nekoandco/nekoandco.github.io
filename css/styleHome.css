@@ -10,7 +10,7 @@ footer {
 }
 
 #cosmos {
-	background: black url(images/starsBG.jpg) repeat; /* bg from pixelmoondust's collection https://pixelmoondust.neocities.org/archives/archivedtiles/colours/black */
+	background: black url(../images/stars_animatedBG.gif) repeat; /* bg by artBIT https://www.deviantart.com/artbit/art/Animated-Starfield-Tile-201679214 */
 	color: white;
 	text-shadow: 2px 2px 4px #000000;
 }
